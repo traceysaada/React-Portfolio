@@ -13,7 +13,7 @@ class Header extends Component {
             <Nav.Link href="/">About Me</Nav.Link>
             <Nav.Link href="/projects">Projects</Nav.Link>
             <Nav.Link href="/timeline">Timeline</Nav.Link>
-            <Nav.Link href="/cvpage">CV</Nav.Link>
+            
             <Nav.Link href="/contactpage">Contact</Nav.Link>
           </Nav>
         </Navbar>
