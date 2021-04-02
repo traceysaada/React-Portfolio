@@ -6,6 +6,7 @@ import ProjectPage from './Components/ProjectPage';
 import TimeLinePage from './Components/TimeLinePage';
 import CVPage from './Components/CVPage'
 import About from './Components/About'
+import ContactPage from './Components/ContactPage'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Route exact path="/projects" component={ProjectPage} />
       <Route exact path="/timeline" component={TimeLinePage} />
       <Route exact path="/cvpage" component={CVPage} />
+      <Route exact path="/contactpage" component={ContactPage} />
       </Router>
     </div>
   );
