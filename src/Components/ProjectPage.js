@@ -1,5 +1,6 @@
 import React from "react";
 import { Card } from "react-bootstrap";
+import { CardDeck } from "react-bootstrap";
 
 export default function ProjectPage() {
   return (
@@ -7,7 +8,7 @@ export default function ProjectPage() {
       <hr />
 
       <h1>Project's</h1>
-
+      <CardDeck>
       <Card style={{ width: "30rem" }}>
         <Card.Body>
           <Card.Title>My First Team Project</Card.Title>
@@ -78,6 +79,7 @@ export default function ProjectPage() {
           </Card.Link>
         </Card.Body>
       </Card>
+      </CardDeck>
     </>
   );
 }

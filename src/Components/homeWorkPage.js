@@ -1,5 +1,6 @@
 import React from "react";
 import { Card } from "react-bootstrap";
+import { CardDeck } from "react-bootstrap";
 
 export default function HomeWorkPage() {
   return (
@@ -7,6 +8,7 @@ export default function HomeWorkPage() {
       <hr />
 
       <h1>Link to some of my Homeworks</h1>
+      <CardDeck>
       <Card style={{ width: "30rem" }}>
         <Card.Body>
           <Card.Title>First Homework</Card.Title>
@@ -102,7 +104,10 @@ export default function HomeWorkPage() {
           </Card.Link>
         </Card.Body>
       </Card>
-
+      </CardDeck>
+     
+      <hr />
+      <CardDeck>
       <Card style={{ width: "30rem" }}>
         <Card.Body>
           <Card.Title>workout Tracker</Card.Title>
@@ -158,6 +163,7 @@ export default function HomeWorkPage() {
           </Card.Link>
         </Card.Body>
       </Card>
+      </CardDeck>
     </>
     //
   );
