@@ -5,6 +5,7 @@ export default function ContactPage ()
 {
  return (
      <>
+     <hr />
      <h1>Contact</h1>
 <ListGroup>
   <ListGroup.Item>Find Me on <a href="https://www.facebook.com/tracey.french.102/"target="_blank"rel="noreferrer">Facebook</a> Tracey French, (I still use my
@@ -20,7 +21,7 @@ export default function ContactPage ()
   <ListGroup.Item>Email
         <a href="mailto:tracey.saada@outlook.com">tracey.saada@outlook.com</a></ListGroup.Item>
   <ListGroup.Item>I Currently Live in Glossop, a small town at the start of the Snakepass
-        & Woodhead the Gateway to the Peak District</ListGroup.Item>
+        and Woodhead the Gateway to the Peak District</ListGroup.Item>
 </ListGroup>
 </>
      //
