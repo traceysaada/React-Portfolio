@@ -20,8 +20,7 @@ export default function ContactPage ()
         know if you wanted to follow, please dont think I am ignoring you</ListGroup.Item>
   <ListGroup.Item>Email
         <a href="mailto:tracey.saada@outlook.com">tracey.saada@outlook.com</a></ListGroup.Item>
-  <ListGroup.Item>I Currently Live in Glossop, a small town at the start of the Snakepass
-        and Woodhead the Gateway to the Peak District</ListGroup.Item>
+  <ListGroup.Item>Mobile No 07786374892</ListGroup.Item>
 </ListGroup>
 </>
      //

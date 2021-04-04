@@ -3,6 +3,7 @@ import { Button } from "react-bootstrap";
 import { Card } from "react-bootstrap";
 import { CardDeck } from "react-bootstrap";
 
+
 export default function About() {
   return (
     <>
@@ -14,11 +15,12 @@ export default function About() {
       >
         <Button variant="outline-info">View my CV</Button>
       </a>
+      <hr />
       <CardDeck>
         <Card style={{ width: "30rem" }}>
           <Card.Img
             variant="top"
-            src="/src/styles/images/homepage-picture.jpg"
+            src="/styles/images/homepage-picture.jpg"
           />
           <Card.Body>
             <Card.Title>My Career</Card.Title>
@@ -41,10 +43,10 @@ export default function About() {
         <Card style={{ width: "30rem" }}>
           <Card.Img
             variant="top"
-            src="/src/styles/images/homepage-picture.jpg"
+            src="/styles/images/homepage-picture.jpg"
           />
           <Card.Body>
-            <Card.Title>MY LIFE</Card.Title>
+            <Card.Title>My Life</Card.Title>
             <Card.Text>
               I am the proud Mother of 3 Daughters and I have 4 Grandchildren,
               HaHa and 3 Granddogs they are definitely a big part of our family.
