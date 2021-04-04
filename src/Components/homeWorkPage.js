@@ -9,7 +9,7 @@ export default function HomeWorkPage() {
 
       <h1>Link to some of my Homeworks</h1>
       <CardDeck>
-      <Card style={{ width: "30rem" }}>
+      <Card style={{ width: "25rem" }}>
         <Card.Body>
           <Card.Title>First Homework</Card.Title>
           <Card.Subtitle className="mb-2 text-muted">
@@ -41,7 +41,7 @@ export default function HomeWorkPage() {
         </Card.Body>
       </Card>
 
-      <Card style={{ width: "30rem" }}>
+      <Card style={{ width: "25rem" }}>
         <Card.Body>
           <Card.Title>Homework Day Schedule</Card.Title>
           <Card.Subtitle className="mb-2 text-muted">
@@ -72,7 +72,7 @@ export default function HomeWorkPage() {
         </Card.Body>
       </Card>
 
-      <Card style={{ width: "30rem" }}>
+      <Card style={{ width: "25rem" }}>
         <Card.Body>
           <Card.Title>Eat Da Burger</Card.Title>
           <Card.Subtitle className="mb-2 text-muted">
@@ -108,7 +108,7 @@ export default function HomeWorkPage() {
      
       <hr />
       <CardDeck>
-      <Card style={{ width: "30rem" }}>
+      <Card style={{ width: "25rem" }}>
         <Card.Body>
           <Card.Title>workout Tracker</Card.Title>
           <Card.Subtitle className="mb-2 text-muted">
@@ -137,7 +137,7 @@ export default function HomeWorkPage() {
         </Card.Body>
       </Card>
 
-      <Card style={{ width: "30rem" }}>
+      <Card style={{ width: "25rem" }}>
         <Card.Body>
           <Card.Title>Employee Directory</Card.Title>
           <Card.Subtitle className="mb-2 text-muted">
