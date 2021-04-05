@@ -6,7 +6,7 @@ class Header extends Component {
   render() {
     return (
       <>
-        <Navbar bg="dark" variant="dark">
+        <Navbar bg="primary" variant="dark">
           <Navbar.Brand href="#home">Tracey Saada</Navbar.Brand>
           <Nav className="mr-auto">
             <Nav.Link href="/">About Me</Nav.Link>
