@@ -2,6 +2,8 @@ import React from "react";
 import { Button } from "react-bootstrap";
 import { Card } from "react-bootstrap";
 import { CardDeck } from "react-bootstrap";
+import photo1 from "../Styles/image/homepage-picture.jpg";
+import photo2 from "../Styles/image/My-Daughters.jpeg"
 
 
 export default function About() {
@@ -13,14 +15,14 @@ export default function About() {
         target="_blank"
         rel="noreferrer"
       >
-        <Button variant="outline-info">View my CV</Button>
+        <Button style={{textDecorationColor: "black"}} variant="outline-info">View my CV</Button>
       </a>
       <hr />
       <CardDeck>
         <Card style={{ width: "30rem" }}>
-          <Card.Img
+          <Card.Img style={{height: "300px", width: "300px", margin: "auto"}}
             variant="top"
-            src="/styles/images/homepage-picture.jpg"
+            src={photo1}
           />
           <Card.Body>
             <Card.Title>My Career</Card.Title>
@@ -41,9 +43,9 @@ export default function About() {
         </Card>
 
         <Card style={{ width: "30rem" }}>
-          <Card.Img
+          <Card.Img style={{height: "300px", width: "300px", margin: "auto"}}
             variant="top"
-            src="/styles/images/homepage-picture.jpg"
+            src={photo2}
           />
           <Card.Body>
             <Card.Title>My Life</Card.Title>
