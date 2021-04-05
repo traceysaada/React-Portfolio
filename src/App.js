@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Route} from 'react-router-dom'
+import { BrowserRouter as Router, Route, Redirect} from 'react-router-dom'
 import Header from "./Components/Header"
 import Footer from "./Components/Footer"
 import ProjectPage from './Components/ProjectPage';
@@ -13,12 +13,18 @@ function App() {
     <div className="App">
       <Router>
      <Header />
-      <Route exact path="/" component={About} />
-      <Route exact path="/projects" component={ProjectPage} />
-      <Route exact path="/timeline" component={TimeLinePage} />
-      <Route exact path="/contactpage" component={ContactPage} />
-      <Route exact path="/homework" component={HomeWorkPage} />
-      <Route exact path="/footer" component={Footer} />
+     <Route path="/">
+       <Redirect to="/about"/>
+     </Route>
+     <Route path="/React-Portfolio">
+       <Redirect to="/about"/>
+     </Route>
+      <Route  path="/about" component={About} />
+      <Route  path="/projects" component={ProjectPage} />
+      <Route  path="/timeline" component={TimeLinePage} />
+      <Route  path="/contact" component={ContactPage} />
+      <Route  path="/homework" component={HomeWorkPage} />
+     
       <Footer/>
       </Router>
     </div>
