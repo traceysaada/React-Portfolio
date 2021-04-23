@@ -29,6 +29,7 @@ export default function HomeWorkPage() {
               Click link GitHub Homework
             </a>
           </Card.Link>
+          <hr></hr>
           <Card.Link href="#">
             <a
               href="https://traceysaada.github.io/week-3-Password-Generator/"
@@ -60,6 +61,7 @@ export default function HomeWorkPage() {
               Click link GitHub Homework
             </a>
           </Card.Link>
+          <hr></hr>
           <Card.Link href="#">
             <a
               href="https://traceysaada.github.io/Work-Day-Scheduler/"
@@ -93,6 +95,7 @@ export default function HomeWorkPage() {
               click link GitHub Homework
             </a>
           </Card.Link>
+          <hr></hr>
           <Card.Link href="#">
             <a
               href="https://burger-62.herokuapp.com/"
@@ -110,7 +113,7 @@ export default function HomeWorkPage() {
       <CardDeck>
       <Card style={{ width: "25rem" }}>
         <Card.Body>
-          <Card.Title>workout Tracker</Card.Title>
+          <Card.Title>Workout Tracker</Card.Title>
           <Card.Subtitle className="mb-2 text-muted">
             Keep track of your weekly workout
           </Card.Subtitle>
@@ -131,7 +134,7 @@ export default function HomeWorkPage() {
               target="_blank"
               rel="noreferrer"
             >
-              click link to Workout Tracker
+              Click link to Workout Tracker
             </a>
           </Card.Link>
         </Card.Body>
@@ -158,12 +161,45 @@ export default function HomeWorkPage() {
               target="_blank"
               rel="noreferrer"
             >
-              click link to Employee Directory
+              Click link to Employee Directory
             </a>
           </Card.Link>
         </Card.Body>
       </Card>
       </CardDeck>
+      <Card style={{ width: "25rem" }}>
+        <Card.Body>
+          <Card.Title>Google Books</Card.Title>
+          <Card.Subtitle className="mb-2 text-muted">
+            Search for Books & Save books you like
+          </Card.Subtitle>
+          <Card.Text>
+            A user, can search for books & get Title, Author, Description & picture of the books.
+            they can then chose to save the book to favourites for later use. 
+            This is stored in a database & they can access this on the Save page, 
+            they then have the option to delete from database if they no longer want the book.
+          </Card.Text>
+          <Card.Link href="#">
+            <a
+              href="https://traceys-google-books.herokuapp.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Click link to Google Books
+            </a>
+            <hr></hr>
+          </Card.Link>
+          <Card.Link href="#">
+            <a
+              href="https://github.com/traceysaada/Google-books"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Click link to GitHub Repository
+            </a>
+          </Card.Link>
+        </Card.Body>
+      </Card>
     </>
     //
   );
