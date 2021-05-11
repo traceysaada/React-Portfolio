@@ -79,7 +79,42 @@ export default function ProjectPage() {
           </Card.Link>
         </Card.Body>
       </Card>
+      <Card style={{ width: "30rem" }}>
+        <Card.Body>
+          <Card.Title>My Third Team Project</Card.Title>
+          <Card.Subtitle className="mb-2 text-muted">
+            Bookmark
+          </Card.Subtitle>
+          <Card.Text>
+            concept of the project: When you visit the website, you can log in to your account or create an account.
+            then search for books or look at the news feed for the latest books release.
+            once you have found the books you want to add to your account you can put them into categories.
+            you can then visit the list page and see all your books in the want to read, currently reading & history.
+            You are able to move the books from one category to anothe & also delete the books.
+            future development will be to record your reading & keep track of your page & also follow & interact with other users of the bookmark app.
+          </Card.Text>
+          <Card.Link href="#">
+            <a
+              href="https://github.com/Babakbigdeli/BookmarkApp"
+              target="_blank"
+              rel="noreferrer"
+            >
+             Click link to GitHub Project
+            </a>
+          </Card.Link>
+          <Card.Link href="#">
+            <a
+              href="https://digital-bookmark.herokuapp.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+             Click link to Bookmark
+            </a>
+          </Card.Link>
+        </Card.Body>
+      </Card>
       </CardDeck>
+      
     </>
   );
 }
